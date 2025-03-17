@@ -1,1 +1,58 @@
-https://chatgpt.com/canvas/shared/67d8756ee2b881919fa5d50b4ccf58b7
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cestovná kancelária</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #0073e6;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .container {
+            padding: 20px;
+        }
+        .destination {
+            margin: 20px;
+            padding: 20px;
+            background: white;
+            display: inline-block;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        img {
+            width: 300px;
+            height: 200px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>Cestovná kancelária - Objavte svet s nami</header>
+    <div class="container">
+        <div class="destination">
+            <h2>Maldivy</h2>
+            <img src="https://source.unsplash.com/300x200/?maldives,beach" alt="Maldivy">
+            <p>Rajská dovolenka s bielym pieskom a tyrkysovým morom.</p>
+        </div>
+        <div class="destination">
+            <h2>Paríž</h2>
+            <img src="https://source.unsplash.com/300x200/?paris,eiffel" alt="Paríž">
+            <p>Romantické mesto lásky s úžasnou atmosférou.</p>
+        </div>
+        <div class="destination">
+            <h2>Dubai</h2>
+            <img src="https://source.unsplash.com/300x200/?dubai,skyline" alt="Dubai">
+            <p>Moderné mesto luxusu a architektonických divov.</p>
+        </div>
+    </div>
+</body>
+</html>
+
